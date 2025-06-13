@@ -31,7 +31,7 @@ const AuthTabs = () => {
                 await login({ email: loginEmail, password: loginPassword }).then(
                         res => {
                                 console.log(res)
-                                navigate('/blogs')
+                                navigate('/dashboard')
                         }).catch(err => {
                                 console.log(err)
                         })
